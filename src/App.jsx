@@ -54,8 +54,8 @@ const App = () => {
                             borderWidth: '1px',
                             borderColor: 'gray',
                             borderRadius: '5px'
-                          }}
-                        
+                        }}
+
                     />
 
                     &emsp;
@@ -70,16 +70,16 @@ const App = () => {
 
                 {/* Length Slider */}
                 <div className="space-y-2">
-                  <div className="space-y-2">
-                    <label className="block font-semibold">Length: {length}</label>
-                    <input
-                        type="range"
-                        min="6"
-                        max="32"
-                        value={length}
-                        onChange={(e) => setLength(Number(e.target.value))}
-                        className="w-full cursor-pointer"
-                    />
+                    <div className="space-y-2">
+                        <label className="block font-semibold">Length: {length}</label>
+                        <input
+                            type="range"
+                            min="6"
+                            max="32"
+                            value={length}
+                            onChange={(e) => setLength(Number(e.target.value))}
+                            className="w-full cursor-pointer"
+                        />
                     </div>
                 </div>
 
@@ -92,7 +92,7 @@ const App = () => {
                             type="checkbox"
                             checked={includeUpper}
                             onChange={() => setIncludeUpper(!includeUpper)}
-                            className="accent-gray-400"
+                            className="accent-gray-100"
                         />
                         <span> Uppercase</span>
                     </label>
@@ -104,7 +104,7 @@ const App = () => {
                             type="checkbox"
                             checked={includeLower}
                             onChange={() => setIncludeLower(!includeLower)}
-                            className="accent-gray-400"
+                            className="accent-gray-100"
                         />
                         <span> Lowercase</span>
                     </label>
@@ -116,7 +116,7 @@ const App = () => {
                             type="checkbox"
                             checked={includeNumbers}
                             onChange={() => setIncludeNumbers(!includeNumbers)}
-                            className="accent-gray-400"
+                            className="accent-gray-100"
                         />
                         <span> Numbers</span>
                     </label>
@@ -128,7 +128,7 @@ const App = () => {
                             type="checkbox"
                             checked={includeSymbols}
                             onChange={() => setIncludeSymbols(!includeSymbols)}
-                            className="accent-blue-400"
+                            className="accent-gray-100"
                         />
                         <span> Symbols</span>
                     </label>

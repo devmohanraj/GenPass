@@ -10,7 +10,7 @@
 
 body {
     font-family: 'Poppins', sans-serif;
-    background: linear-gradient(135deg, #323293, #1c316c);
+    background: linear-gradient(135deg, #000047, #00144d);
     color: white;
     min-height: 100vh;
     display: flex;
@@ -139,7 +139,7 @@ input[type="range"]::-webkit-slider-thumb {
 
 /* Generate Button */
 .generate-btn {
-    background:rgb(119, 119, 119);
+    background:rgb(87, 87, 87);
     color: rgb(255, 255, 255);
     font-size: 18px;
     padding: 9px;
@@ -167,4 +167,11 @@ input[type="range"]::-webkit-slider-thumb {
 
 .app-container {
     animation: fadeIn 0.5s ease-in-out;
+}
+
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+    padding: 10px;
+  }
 }
