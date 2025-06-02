@@ -1,6 +1,7 @@
 name: Deploy React + Vite to GitHub Pages
 
 on:
+  workflow_dispatch:
   push:
     branches:
       - main  # Make sure there's a space after the dash
