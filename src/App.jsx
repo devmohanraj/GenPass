@@ -92,7 +92,7 @@ const App = () => {
                             type="checkbox"
                             checked={includeUpper}
                             onChange={() => setIncludeUpper(!includeUpper)}
-                            className="accent-gray-400"
+                            className="accent-gray-500"
                         />
                         <span> Uppercase</span>
                     </label>
@@ -104,7 +104,7 @@ const App = () => {
                             type="checkbox"
                             checked={includeLower}
                             onChange={() => setIncludeLower(!includeLower)}
-                            className="accent-gray-400"
+                            className="accent-gray-500"
                         />
                         <span> Lowercase</span>
                     </label>
@@ -116,7 +116,7 @@ const App = () => {
                             type="checkbox"
                             checked={includeNumbers}
                             onChange={() => setIncludeNumbers(!includeNumbers)}
-                            className="accent-gray-400"
+                            className="accent-gray-500"
                         />
                         <span> Numbers</span>
                     </label>
@@ -128,7 +128,7 @@ const App = () => {
                             type="checkbox"
                             checked={includeSymbols}
                             onChange={() => setIncludeSymbols(!includeSymbols)}
-                            className="accent-blue-400"
+                            className="accent-gray-500"
                         />
                         <span> Symbols</span>
                     </label>
